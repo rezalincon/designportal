@@ -1763,19 +1763,54 @@ header .menu-button.menu-button--open span:nth-child(3) {
   margin:0;
   padding:0;
   left:0;
-	-webkit-transition: top 11s;
-	-moz-transition: top 11s;
-	-ms-transition: top 11s;
-	-o-transition: top 11s;
-	transition: bottom 11s;
+	-webkit-transition: top 7s;
+	-moz-transition: top 7s;
+	-ms-transition: top 7s;
+	-o-transition: top 7s;
+	transition: bottom 7s;
 }
 .screen:hover img {
   bottom: 0;
-  -webkit-transition: all 11s;
-  -moz-transition: all 11s;
-  -ms-transition: all 11s;
-  -o-transition: all 11s;
-  transition: all 11s;
+  -webkit-transition: all 7s;
+  -moz-transition: all 7s;
+  -ms-transition: all 7s;
+  -o-transition: all 7s;
+  transition: all 7s;
+}
+
+
+.screen-web {
+	display: block;
+	width: 489px;
+	height: 322px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #b3b3b3;
+	border-radius: 5px;
+	margin-top:-28px
+}
+.screen-web img {
+	bottom: -260px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+  left:0;
+	-webkit-transition: top 5s;
+	-moz-transition: top 5s;
+	-ms-transition: top 5s;
+	-o-transition: top 5s;
+	transition: bottom 5s;
+}
+.screen-web:hover img {
+  bottom: 0;
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+  transition: all 5s;
 }
 
 
