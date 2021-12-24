@@ -1779,6 +1779,42 @@ header .menu-button.menu-button--open span:nth-child(3) {
 }
 
 
+.logo-screen {
+	display: block;
+	width: 489px;
+	height: 322px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #b3b3b3;
+	border-radius: 5px;
+	margin-top:-28px
+}
+.logo-screen img {
+	bottom: -660px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+  left:0;
+	-webkit-transition: top 7s;
+	-moz-transition: top 7s;
+	-ms-transition: top 7s;
+	-o-transition: top 7s;
+	transition: bottom 7s;
+}
+.logo-screen:hover img {
+  bottom: 0;
+  -webkit-transition: all 7s;
+  -moz-transition: all 7s;
+  -ms-transition: all 7s;
+  -o-transition: all 7s;
+  transition: all 7s;
+}
+
+
+
 .screen-web {
 	display: block;
 	width: 489px;
