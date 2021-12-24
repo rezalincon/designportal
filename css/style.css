@@ -1851,7 +1851,7 @@ header .menu-button.menu-button--open span:nth-child(3) {
 
 .h-title:hover{
 	color: #EE4493 !important;
-	border-bottom: 3px solid #EE4493;
+	border-bottom: 3px solid #fff;
 }
 
 
