@@ -1849,6 +1849,11 @@ header .menu-button.menu-button--open span:nth-child(3) {
   transition: all 5s;
 }
 
+.h-title:hover{
+	color: #EE4493 !important;
+	border-bottom: 3px solid #EE4493;
+}
+
 
 /*======== 8. Blogs Section ========*/
 
