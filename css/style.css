@@ -1903,19 +1903,19 @@ header .menu-button.menu-button--open span:nth-child(3) {
   margin:0;
   padding:0;
   left:0;
-	-webkit-transition: top 5s;
-	-moz-transition: top 5s;
-	-ms-transition: top 5s;
-	-o-transition: top 5s;
-	transition: bottom 5s;
+	-webkit-transition: top 10s;
+	-moz-transition: top 10s;
+	-ms-transition: top 10s;
+	-o-transition: top 10s;
+	transition: bottom 10s;
 }
 .screen-demo:hover img {
   bottom: 0;
-  -webkit-transition: all 5s;
-  -moz-transition: all 5s;
-  -ms-transition: all 5s;
-  -o-transition: all 5s;
-  transition: all 5s;
+  -webkit-transition: all 10s;
+  -moz-transition: all 10s;
+  -ms-transition: all 10s;
+  -o-transition: all 10s;
+  transition: all 10s;
 }
 
 .h-title:hover{
