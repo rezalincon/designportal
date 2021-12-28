@@ -1918,6 +1918,40 @@ header .menu-button.menu-button--open span:nth-child(3) {
   transition: all 10s;
 }
 
+.pop-screen {
+	display: block;
+	width: 489px;
+	height: 322px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #b3b3b3;
+	border-radius: 5px;
+	margin-top:-28px
+}
+.pop-screen img {
+	bottom: -30px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+  left:0;
+	-webkit-transition: top 2s;
+	-moz-transition: top 2s;
+	-ms-transition: top 2s;
+	-o-transition: top 2s;
+	transition: bottom 2s;
+}
+.pop-screen:hover img {
+  bottom: 0;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
 .h-title:hover{
 	color: #EE4493 !important;
 	border-bottom: 3px solid #fff;
