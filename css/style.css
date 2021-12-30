@@ -2289,3 +2289,7 @@ header .back-button i {
 		overflow-y: scroll;
 	}
 }
+ .policy:hover{
+	border-bottom: 1px solid #fff !important;
+} 
+
