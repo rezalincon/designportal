@@ -1827,7 +1827,7 @@ header .menu-button.menu-button--open span:nth-child(3) {
 	margin-top:-28px
 }
 .logo-screen img {
-	bottom: -660px;
+	bottom: -900px;
 	width: 100%;
 	height: auto;
 	position: absolute;
@@ -1843,7 +1843,7 @@ header .menu-button.menu-button--open span:nth-child(3) {
 }
 @media (max-width: 525.98px) { 
 	.logo-screen img {
-	bottom: -280px;
+	bottom: -430px;
 	width: 100%;
 	height: auto;
 	position: absolute;
@@ -1860,7 +1860,7 @@ header .menu-button.menu-button--open span:nth-child(3) {
  }
  @media (min-width: 526px) and (max-width: 768px) {
 	 	.logo-screen img {
-	bottom: -600px;
+	bottom: -850px;
 	width: 100%;
 	height: auto;
 	position: absolute;
